@@ -1,0 +1,110 @@
+.Login-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ background-image: url('../../images/login-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+.Login-container{
+    width: 100%;
+    max-width: 900px;
+    padding: 70px 50px;
+    background-color: #FFF2E6;
+    border-radius: 20px;
+}
+.Login-logo img{
+    width: 100%;
+    max-width: 200px;
+}
+.Login-logo{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Login-form-group input{
+    color: #9d9d9d;
+    font-size: 16px;
+    font-weight: 400;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #fff;
+    padding: 20px;
+}
+.Login-form-group {
+    margin-bottom: 25px;
+}
+.Login-form-group button {
+    background: #fc8019;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid #fc8019;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.Login-footer p{
+    color: #9d9d9d;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.Login-footer p a{
+    color: #fc8019;
+    font-weight: 600;
+}
+.login-divider p {
+    color: #171826;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.login-divider {
+    margin: 30px 0;
+}
+
+.Login-google-logo {
+    background: rgba(217, 217, 217, 0);
+    border-radius: 10px;
+    height: 50px;
+    border: 1px solid #9d9d9d;
+    width: 48%;
+}
+.Login-google-logo img {
+    width: 30px;
+    margin-right: 8px;
+}
+.Login-google-logo a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.Login-google {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.login-term p {
+    color: #171826;
+}
+.login-term p a{
+    font-weight: 400;
+}
+.login-term {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
