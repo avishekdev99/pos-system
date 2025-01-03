@@ -1,0 +1,71 @@
+.dashboard-layout {
+    display: flex;
+}
+.dashboard-content {
+    width: 80%;
+    padding: 50px;
+    background: #F2F2F2;
+}
+
+.revenue-img img {
+    width: 40px;
+    height: 40px;
+}
+.revenue-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 35px 20px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    text-align: center;
+    width: 24%;
+}
+.revenue-info p {
+    color: #171826;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.revenue-info span {
+    color: #171826;
+    font-size: 16px;
+    font-weight: 400;
+}
+.revenue-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.latestoreder {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0px 4px 35px 20px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    width: 48%;
+    color: #171826;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.3s linear;
+}
+.latestoreder:hover, .latestoreder.active {
+    background: #FC8019;
+    color: #ffffff;
+}
+
+.latest-order {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.order-table{
+    background: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 4px 35px 25px rgba(0, 0, 0, 0.05);
+    padding: 50px 30px;
+    margin-top: 30px;
+}

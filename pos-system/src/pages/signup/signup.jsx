@@ -30,7 +30,7 @@ function Signup() {
                 </form>
             </div>
             <div className="Login-footer">
-                <p>Already have an account  <a href="/login">Login In</a></p>
+                <p>Already have an account  <a href="/login">Log In</a></p>
                 <div className="login-divider">
                     <p>
                         OR

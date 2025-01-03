@@ -1,0 +1,38 @@
+.table-data table{
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 15px;
+    margin-top: 20px;
+
+}
+.product-img {
+    width: 65px;
+    height: 65px;
+    background: rgba(151, 106, 106, 0);
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid #d9d9d966;
+    margin-right: 10px;
+}
+.product-name p {
+    color: #171826;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.product-name span {
+    color: #d9d9d9;
+    font-size: 16px;
+    font-weight: 600;
+}
+.product-info {
+    display: flex;
+    align-items: center;
+}
+.table-data table tr td {
+    width: 25%;
+    color: #171826;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+}

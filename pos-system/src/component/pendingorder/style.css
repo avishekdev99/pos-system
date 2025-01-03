@@ -1,0 +1,89 @@
+.pending-order {
+    background: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 4px 35px 25px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.pending-order-image {
+    background: rgba(151, 106, 106, 0);
+    border-radius: 5px;
+    width: 65px;
+    height: 65px;
+    border: 2px solid #d9d9d99e;
+    padding: 5px;
+    margin-right: 10px;
+}
+.pending-order-info p {
+    color: #171826;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+    .pending-order-info span {
+        color: #9f9f9f;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .pending-order-details {
+        display: flex;
+        align-items: center;
+        width: 25%;
+    }
+    .pending-order-text p {
+        color: #171826;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .pending-order-text {
+        width: 25%;
+    }
+    .pending-order-header {
+        display: flex;
+        align-items: center;
+    }
+    .pending-order-quanity p{
+        color: #171826;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .pending-order-quanity p span {
+        color: #9f9f9e;
+    }
+    .pending-order-status p{
+        color: #e30303;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .pending-order-width {
+        width: 25%;
+    }
+    .pending-order-footer {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #d9d9d9;
+        border-bottom: 1px solid #d9d9d9;
+        margin-top: 20px;
+    }
+    .pending-order-action {
+        text-align: right;
+    }
+    .pending-order-action button {
+        background: #e30303;
+        border-radius: 5px;
+        color: #ffffff;
+        font-family: "OpenSans-Bold", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        border: 2px solid #e30303;
+        padding: 12px 15px;
+        cursor: pointer;
+        transition: all 0.3s linear;
+    }
+    .pending-order-action button:hover {
+        background: transparent;
+        color: #e30303;
+    }
